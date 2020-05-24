@@ -1,0 +1,174 @@
+/***** Stefans Homepage *****/
+/***** BASE STYLES *****/
+
+body {
+  	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+
+#about, #portfolio, #contact {
+	height: 600px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	margin: 0 auto;
+	float: right;
+}
+
+.third-width {
+    	width: 400px;
+    	margin: 0 auto;
+	float: left;
+}
+
+
+/***** Header *****/
+
+header img {
+   padding-top: 100px; 
+   padding-left: 25px;
+   float: left;
+}
+
+header h1 {
+    padding: 100px 0px 0px 10px; 
+    display: inline-block;
+    font-family: 'Libre Baskerville Bold';
+    font-size: 64px;
+    line-height: 0;
+}
+
+header h2 {
+    padding: 0px 0px 0px 25px; 
+    display: inline-block;
+    font-family: 'Libre Baskerville Bold';
+    font-size: 64px;
+    line-height: 0;
+}
+header h2 span {
+    font-family: 'Libre Baskerville Bold';
+    font-size: 64px;
+    color: #000099;
+}
+
+header p {
+    padding: 0px 0px 0px 25px;  
+    font-family: 'Open Sans Regular';
+    font-size: 48px;
+    height: 300px;
+}
+
+nav {
+    text-transform: uppercase;
+    float: right; 
+    padding: 75px px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    padding-left: 50px; 
+    color: #313131;
+    text-decoration: none;
+
+}
+
+/***** About *****/
+
+#about {
+        color: #ffffff;
+	background-color: #3366FF;
+        text-align: center;
+	height: 600px;
+}
+
+#about h1 {
+	font-size: 32px;
+}
+
+#about h2 {
+  	padding: 50px 0px 0px 0px; 
+	font-size: 32px;
+}
+
+#about p {
+	width: 400px;
+  	padding: 25px 0px 0px 400px; 
+	font-size: 28px;
+}
+
+
+/***** PORTFOLIO *****/
+
+
+#portfolio h2 {
+	font-family: 'Libre Baskerville Bold';
+    	font-size: 36px;
+    	text-align: center;
+  	padding: 50px 0px 0px 0px; 
+}
+ 
+#portfolio img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 0px 0px 0px 25px; 
+}
+
+#portfolio p {
+	text-align: center;
+	font-size: 24px;
+}
+
+/***** CONTACT *****/
+
+#contact  {
+	background-color: #3366FF;
+	text-align: center;
+        color: #ffffff;
+}
+
+
+#contact h2 {
+    font-family: 'Libre Baskerville Bold';
+    font-size: 36px;
+    text-align: center;
+    padding: 50px 0px 0px 0px; 
+}
+
+#contact p{
+    text-align: center;
+    font-size: 28px;
+}
+
+a {
+	font-size: 28px;
+	color: white;
+}
+
+
+#contact img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+/***** Footer *****/
+
+footer {
+    text-align: right;
+}
